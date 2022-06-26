@@ -1,16 +1,18 @@
 
 *{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    margin: -10px;
+    margin: 0px;
     padding: 0px;
-    width: 100%;
-    align-items: stretch;
+    width: auto;
+    overflow: hidden;
+    justify-content: space-between;
+    
     
 }
 
@@ -27,7 +29,7 @@ background-color: #1F2937;
 color: #E5E7EB;
 height: 60px;
 justify-content: space-between;
-padding: 15px;
+padding: 50px;
 }
 
 .header-logo{
@@ -45,7 +47,7 @@ padding: 15px;
 }
 
 body {
-    display: flex;
+    margin: 0px;
 }
 
 .one{
@@ -54,7 +56,7 @@ body {
     font-size: 18px;
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 50px;
 }
 
 .photo img{
@@ -73,6 +75,7 @@ body {
 .left{
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
 .one .left .title{
@@ -84,7 +87,7 @@ body {
 .two {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 50px;
 }
 
 .two .title {
@@ -110,15 +113,86 @@ body {
 
 .two .cards .card img{
     height: 100px;
-    width: auto;
-}
+    width: 100px;
+    border: #3882f6;
+    border-width: 5px;
+    padding: 5px;
+    align-self: center;
+    border-radius: 10px;
+    border-style: solid;
 
-.three {
-    background-color: #E5E7EB;
     
 }
 
+.three {
+    background-color: #E5E7EB; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    padding: 15px;
+
+}
+
+.author {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.four {
+    display: flex;
+    background-color: #3882f6;
+    padding: 15px;
+    margin-bottom: 50px;
+    border-width: 5px;
+    border-style:solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    height: 60px;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 12px;    
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.four .title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ button {
+    background-color: #3882f6;
+    border-style:solid;
+    border-color:#3882f6;
+    border-radius: 5px;
+    padding: 5px;
+    color: #F9FAF8;
+ }
+
+.four button {
+    border-color:#F9FAF8;
+    width: 100px;
+
+}
 footer {
     display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
 }
 
